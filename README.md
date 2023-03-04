@@ -1,13 +1,13 @@
 # BinarytoDecimalByStack
 
+# Faculty Of Computer And Artificial Intelligence Cairo University `FCAI-CU`
 
-
-
-
+## 	Structured Programming Assignment
 
 
 
 ## Explan:
+
 takes an input from the user, either a decimal or binary number, and converts it to its binary or decimal equivalent, respectively.
 
 The DecimalToBinary function takes an integer as an argument and uses a stack to store the binary digits of the input number. It repeatedly divides the input number by 2, pushes the remainder (which is always 0 or 1) onto the stack, and updates the input number to be the quotient. Once the input number becomes 0, the function prints out the binary equivalent by popping each digit off the stack and printing it out.
